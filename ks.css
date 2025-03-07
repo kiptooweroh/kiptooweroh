@@ -1,0 +1,109 @@
+*{
+    
+    margin-left: 5px;
+    background-image: url("irina-iriser-2Y4dE8sdhlc-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    min-height: 100%;
+    
+
+    
+}
+.h1
+{
+    
+    padding-left: 300px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: darkred;
+    
+}
+.h5 a
+{
+color: black;
+}
+.emai
+{
+    
+    color: white;
+    
+}
+.list
+{
+    
+    color:red;
+    border-top: 10px;
+    height: 73px;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: transparent;
+    
+}
+.list ul
+{
+    border-style: none;
+
+}
+.list li {
+    display:inline;
+    margin :0 20px;
+}
+.list  :hover::after{
+    color:orange;
+    transition: 1s;
+    display:inline-block;
+    transition:background-color 0.3s ease;
+
+}
+.list li a
+{
+    text-decoration:  none;
+    color:red;
+    font-size: 18px;
+
+}
+    
+.search
+{
+    margin-left: 1000px;
+    border-color:black;
+    margin-top: 10px;
+    border-width: 3px;
+    color: white;
+    width: 10px;
+    height: 5px;
+    background-color: black;
+}
+.search a 
+{background-color: white;
+
+
+}
+body{
+    color: aqua;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+.dropdown li a {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.dropdown li a:hover {
+    background-color: #555;
+}
+

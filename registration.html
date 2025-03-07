@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    
+    <form>
+        <div class="container">
+
+            <h2>Step 1 of 5</h2>
+            <h3>Personal Information</h3>
+            <form>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required><br>
+    
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required><br>
+    
+                <label for="othernames">Other Names:</label>
+                <input type="text" id="othernames" name="othernames"><br>
+    
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br>
+    
+                <label for="marital">Marital Status:</label>
+                <select id="marital" name="marital">
+                    <option value="">Select - Status</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                </select><br>
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br>
+    
+                <label for="birthplace">Place of Birth:</label>
+                <input type="text" id="birthplace" name="birthplace"><br>
+    
+                <label for="mothername">Mother's Name:</label>
+                <input type="text" id="mothername" name="mothername"><br>
+    
+                <label for="fathername">Father's Name:</label>
+                <input type="text" id="fathername" name="fathername"><br>
+    
+                <label for="dependants">Number of Dependants:</label>
+                <select id="dependants" name="dependants">
+                    <option value="">Select - No of Dependants</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3+">3+</option>
+                </select>
+    
+                <label for="education">Level of Education:</label>
+                <input type="text" id="education" name="education">
+    
+                <h3>Security Information</h3>
+    
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+    
+                <label for="repassword">Re-type Password:</label>
+                <input type="password" id="repassword" name="repassword" required>
+    
+                <label for="securityquestion">Security Question:</label>
+                <select id="securityquestion" name="securityquestion">
+                    <option value="">Select - Question</option>
+                    <option value="pet">What is your pet’s name?</option>
+                    <option value="city">What is your birth city?</option>
+                    <option value="city">Which Year were you born?</option>
+                </select><br>
+    
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer" name="answer">
+    
+                <div class="buttons">
+                    <button type="button">Previous</button>
+                    <button type="submit">Next</button>
+                </div>
+            </form>
+            <p class="footer">Copyright © 2011 All rights reserved</p>
+        </div>
+    </body>
+    </html>
+    </form>
+</body>
+</html>

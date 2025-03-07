@@ -1,0 +1,283 @@
+*{
+    /* background-color: #75afee; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px 10px;
+    font-size:25px;
+}
+.page{
+    color: #ddd;
+}
+.details{
+    color: white;
+}
+.search{
+    margin: 10px 10px;
+    margin-left: 50px;
+}
+.tableh ,td { 
+    color: lightblue;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    display: inline-flex;
+    list-style: none;
+    font-size:3px;
+    background-color: #75afee;
+    color: white;
+    text-emphasis: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+.prof img{
+    border-radius: 50%;
+}
+.hobbies{
+    color: white;
+    font-size: 50px;
+    
+}
+.nav-bar li a:hover{
+    color: red;
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover:active{
+    color: aqua;
+}
+
+.about{
+    background-image: url("photo-1553356084-58ef4a67b2a7.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+body{
+    background-image: url("WatermarkPhoto_2-12-2025_125841_AM.png");
+    background-size: cover;
+}
+.home{
+    background-image: url("WatermarkPhoto_2-12-2025_125901_AM.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work{
+    background-image: url("WatermarkPhoto_2-12-2025_125914_AM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    
+}
+.circular img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color:#75afee;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-about, .footer-social, .footer-contact {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Social Media Icons */
+.social-icons {
+   /* display: flex;*/
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #d82222;
+    font-size: 5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #f39c12; /* Gold color for hover effect */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: #222;
+    padding: 20px;
+    color: #bbb;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .referees{
+    background-image: url("premium_photo-1691217595011-377bdc08e762.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .Education{
+    background-image: url("WhatsApp Image 2025-02-13 at 14.48.27_18c75a43.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    
+  }
+  .skills{
+    background-image: url("WhatsApp Image 2025-02-13 at 14.48.27_75cb4b90.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+.animated{
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation:animateText 5s linear
+    infinite, changeColor 5s linear
+    infinite, fadeText 5s linear
+    infinite, rotateText 5s linear
+    infinite;
+}
+@keyframes animateText {
+    0% {transform:
+    translateX(-50px);}
+        50%{transform: 
+    translateX(200px);}
+    100%{transform:
+        translateX(-200px);}
+
+    }
+    @keyframes changeColor {
+        0% {color:rgb(0, 255, 106);}
+        10% {color:blue;}
+        20% {color:green;}
+        30% {color:yellow;}
+        40% {color:rgba(119, 218, 231, 0.815);}
+        50% {color:rgb(21, 255, 0);}
+        60% {color:rgba(99, 93, 90, 0.897);}
+        70% {color:rgb(0,0,20);}
+        80% {color:rgb(0, 217, 255);}
+        90% {color:rgb(174, 0, 255);}
+        100% {color:rgb(0, 255, 200);}
+    }
+    @keyframes fadeText {
+        0% {opacity: 0.5;}
+        50% {opacity: 1;}
+        100% {opacity: 0.5;}
+    }
+   
+.form{
+    width: 50%;
+    background:white ;
+    padding: 20px;
+    margin:20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
